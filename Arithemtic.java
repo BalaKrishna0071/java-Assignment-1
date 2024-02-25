@@ -11,8 +11,8 @@ class Arithemtic{
 		System.out.println("4 , Divison");
 		System.out.println("5 , Exit");
 		System.out.println("6 , Select any Choice ");
-		int sc = sc.nextInt();
-		switch(sc){
+		int s = sc.nextInt();
+		switch(s){
 		case 1: System.out.println("Addition "+(a+b));
 			break;
 		case 2:System.out.println("Subtraction "+(a-b));
